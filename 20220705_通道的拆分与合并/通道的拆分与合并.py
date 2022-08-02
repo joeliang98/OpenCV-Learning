@@ -7,7 +7,7 @@ Created on Tue Jul  5 22:33:41 2022
 
 import cv2
 import numpy as np
-a = cv2.imread(r"E:\Python\OpenCV\OpenCV Learning\image.jpg")
+a = cv2.imread(r"E:\Python\OpenCV-Learning\OpenCV Learning\image.jpg")
 '''
 b,g,r = cv2.split(a)
 cv2.imshow("original",a)

@@ -26,7 +26,7 @@ cv2.waitKey(0)
 
 import cv2
 import numpy as np
-i = cv2.imread(r"E:\Python\OpenCV\OpenCV Learning\BVB.jpg",cv2.IMREAD_UNCHANGED)
+i = cv2.imread(r"E:\Python\OpenCV-Learning\OpenCV Learning\BVB.jpg",cv2.IMREAD_UNCHANGED)
 print(i.item(100,100,0))
 i.itemset((100,100,0),255)
 print(i.item(100,100,0))

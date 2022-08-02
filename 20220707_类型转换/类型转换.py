@@ -15,7 +15,7 @@ cv2.destroyAllWindows()
 
 import cv2
 #默认打开是三通道，所以第二个参数选取不改变
-a = cv2.imread(r"E:\Python\OpenCV\OpenCV Learning\gray_image.jpg",cv2.IMREAD_UNCHANGED)
+a = cv2.imread(r"E:\Python\OpenCV-Learning\OpenCV Learning\gray_image.jpg",cv2.IMREAD_UNCHANGED)
 b = cv2.cvtColor(a,cv2.COLOR_GRAY2BGR)
 cv2.imshow("a",a)
 cv2.imshow("b",b)

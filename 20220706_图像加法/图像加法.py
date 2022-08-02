@@ -6,7 +6,7 @@ Created on Wed Jul  6 22:56:39 2022
 """
 import cv2
 import numpy as py
-a = cv2.imread(r"E:\Python\OpenCV\OpenCV Learning\image.jpg")
+a = cv2.imread(r"E:\Python\OpenCV-Learning\OpenCV Learning\image.jpg")
 b = a
 add1 = a+b          #取模加法
 add2=cv2.add(a,b)   #饱和计算

@@ -5,7 +5,7 @@ Created on Sun Jul  3 14:25:23 2022
 @author: joeBridge
 """
 import cv2
-i = cv2.imread("e:\\python\\OpenCV\\OpenCV Learning\\BVB.jpg",cv2.IMREAD_UNCHANGED)
+i = cv2.imread("E:\Python\OpenCV-Learning\OpenCV Learning\\BVB.jpg",cv2.IMREAD_UNCHANGED)
 '''
 p = i[100,100]
 print(p)

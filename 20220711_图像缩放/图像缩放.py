@@ -33,7 +33,7 @@ cv2.waitKey()
 cv2.destroyAllWindows()
 """
 import cv2
-a = cv2.imread(r"E:\Python\OpenCV\OpenCV Learning\real_gray_image_469_528.jpg")
+a = cv2.imread(r"E:\Python\OpenCV-Learning\OpenCV Learning\real_gray_image_469_528.jpg")
 
 b = cv2.resize(a,None,fx=0.5,fy=1.3)
 cv2.imshow("a",a)

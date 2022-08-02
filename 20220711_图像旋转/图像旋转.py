@@ -6,7 +6,7 @@ Created on Mon Jul 11 23:02:38 2022
 """
 
 import cv2
-a = cv2.imread(r"E:\Python\OpenCV\OpenCV Learning\image_469_528.jpg")
+a = cv2.imread(r"E:\Python\OpenCV-Learning\OpenCV Learning\image_469_528.jpg")
 b = cv2.flip(a,0)
 c = cv2.flip(a,5)
 d = cv2.flip(a,-1)
