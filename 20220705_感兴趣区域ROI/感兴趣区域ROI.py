@@ -14,5 +14,5 @@ b = a[220:400,250:350]
 a[0:180,0:100] = b
 cv2.imshow("original",a)
 cv2.imshow("face",b)
-cv2.waitKey()
+cv2.waitKey(0)
 cv2.destroyAllWindows()

@@ -3,8 +3,8 @@
 
     读取函数：
 
-
         returnValue = cv2.imread("\\path")
+        读取对应路径下的文件，并返回一个矩阵returnValue
 
     显示函数：
 
@@ -14,17 +14,22 @@
     停留函数：
 
         cv2.waitKey(parameter)
-
         parameter为0时一直等待，直到按键输入
                  为x时，等待xms后自动退出
     
     清空所有界面函数：
 
         cv2.destroyAllWindows()
+        关闭所有页面，防止内存泄漏
         
 2.像素处理
 
+    使用切片赋值对应的像素点
+
 3.利用numpy图像处理
+
+    使用numpy的 itemset对相应的像素点进行赋值
+                item进行查看
 
 4.感兴趣区域ROI
 
