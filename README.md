@@ -3,16 +3,21 @@
 
     读取函数：
 
-        cv2.imread("\\path")
+
+        returnValue = cv2.imread("\\path")
 
     显示函数：
 
         cv2.imshow("name",src)
+        显示出src的窗口
 
     停留函数：
 
-        cv2.waitKey(0)
+        cv2.waitKey(parameter)
 
+        parameter为0时一直等待，直到按键输入
+                 为x时，等待xms后自动退出
+    
     清空所有界面函数：
 
         cv2.destroyAllWindows()
